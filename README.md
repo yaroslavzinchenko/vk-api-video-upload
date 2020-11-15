@@ -4,7 +4,7 @@ Application that interacts with VK API, uploads all videos from certain director
 To make this application work, you need to put file named **config.php** into the root directory.
 
 **config.php** file example:
-```
+```php
 <?php
 define('VK_API_VERSION', 5.122);
 define('REDIRECT_URI', 'https://oauth.vk.com/blank.html');
